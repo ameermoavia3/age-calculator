@@ -1,31 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #b3ffff;
+  background-color: #b3ffff;
+  font-family: system-ui, sans-serif;
 }
 
 .calcu {
-    margin-top: 150px;
-    border: 1px solid lightcoral;
-  
-   border: none;
-   padding: 5px;
-   background-color: #e6ffff;
-}
-
-
-@media (max-width: 412px) {
-    .calcu {
-        padding: 20px 10px;
-    }
-    #InputDate {
-        width: 50% !important;
-    }
-    .btn {
-        width: 70% !important;
-    }
+  background-color: #e6ffff;
 }
